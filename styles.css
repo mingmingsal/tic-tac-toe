@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+#gameContainer{
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    aspect-ratio: 1 / 1;
+    width: max(300px,40%);
+    
+}
+
+.tile {
+
+}
